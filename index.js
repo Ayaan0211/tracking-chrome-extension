@@ -3,6 +3,7 @@ const inputEl = document.getElementById("input-el");
 const inputBtn = document.getElementById("input-btn");
 const ulEl = document.getElementById("ul-el");
 
+
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value);
     inputEl.value = "";
@@ -22,12 +23,3 @@ function renderLeads() {
     }
     ulEl.innerHTML = listItems;
 }
-
-const rec = "James";
-const sender = "Per";
-const email = `
-Hey ${rec}! 
-How is it going? 
-Cheers ${sender}
-`;
-console.log(email);

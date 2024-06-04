@@ -2,16 +2,8 @@ body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
 }
-
-/*
-
-Style our app according to the provided design!
-
-green color -> #5f9341
-
-*/
-
 
 input {
     width: 100%;
@@ -27,4 +19,18 @@ button {
     font-weight: bold;
     padding: 1.5% 2%;
     border: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 3%;
+}
+
+li {
+    margin-top: 0.5%;
+}
+
+a {
+    color: #5f9341;
 }
